@@ -20,6 +20,11 @@ namespace Crawl.Image
         {
             public virtual string Title { get; set; }
             public virtual string Author { get; set; }
+            public virtual string PublishTime { get; set; }
+
+            public virtual string ReadCount { get; set; }
+
+            public virtual string CommentCount { get; set; }
         }
 
         class Image
