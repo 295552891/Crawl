@@ -25,6 +25,7 @@ namespace Crawl.Image
             public virtual string ReadCount { get; set; }
 
             public virtual string CommentCount { get; set; }
+
         }
 
         class Image
